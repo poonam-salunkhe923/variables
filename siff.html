@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from details</title>
+    <style>
+         input[type=text]   {
+             color: brown;
+         }
+         input[type=number]{
+             color: yellow;
+         }
+         a::before{
+             content:"\21d2 click here:";
+             font-weight: bold;
+         }
+         p::selection{
+                          color: red;
+             background-color: royalblue;
+         }
+    </style>
+</head>
+<body>
+    <form >
+        <div>
+            <input name ="name" type="text" placeholder="name">
+            <input name ="password" type="password" placeholder="password">
+        </div>
+        <div>
+            <input name="color" type ="radio" value="red">red
+            <input name="color" type="radio" value="green">green
+            <input name="color" type="radio" value="blue">blue
+            <input name="color" type="radio" value="other">other
+
+        </div>
+        <div>
+            <input list="conutries" name="contries" id="browser">
+            <datalist id="conutries">
+              <option value="Ed">
+              <option value="refox">
+              <option value="rome">
+              <option value="era">
+              <option value="fari">
+            </datalist>
+        </div>
+    <input type="text" name="name" placeholder="firstname">
+    <input type="text" name="name" placeholder="lastname">
+    <input type="number" name="name" placeholder="age">
+    </form>
+    <ul>
+        <li><a href="#">one link </a> </li>
+         <li><a href="#">another link</a></li>   
+            <li><a href="#">third link</a></li>
+        
+    </ul>
+    <p>
+        Lorem ipsum doolr sit amet consectetur adipisicing elit. Libero obcaecati quisquam blanditiis nobis voluptate velit quae ullam voluptates placeat, excepturi, aut eius earum quaerat suscipit hic consectetur, quasi unde molestias.
+    </p>
+</body>
+</html>
